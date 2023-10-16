@@ -2,8 +2,8 @@ import { StyleSheet, View, Text } from "react-native"
 import { useEffect } from "react"
 import SNSMobileSDK from "@sumsub/react-native-mobilesdk-module"
 
-const SERVER = "http://192.168.0.171:3000/sumsub-access-token"
-const TOKEN = "_act-sbx-9aa33b74-42c7-4220-9af5-55352f85aff5"
+const SERVER = "SERVER PATH"
+const TOKEN = "YOUR TOKEN"
 
 export default function App() {
   useEffect(() => {
